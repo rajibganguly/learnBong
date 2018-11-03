@@ -2,7 +2,7 @@
 <widget id="io.ionic.starter" version="1.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Easy Speak</name>
     <description>Easy Bengali Speaking App in 10 minutes.</description>
-    <author email="w3earth@outlook.com" href="https://rgcreativelab..com/">Rajib Ganguly</author>
+    <author email="w3earth@outlook.com" href="https://rgcreativelab.com/">Rajib Ganguly</author>
     <content src="index.html" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
@@ -50,7 +50,7 @@
 	<preference name="UIWebViewBounce" value="false" />
 	<preference name="DisallowOverscroll" value="true" />
 	-->
-	<splash src="./splash.png" />
+	<splash src="./icon.png" />
     <platform name="android">
 	<preference name="ShowSplashScreenSpinner" value="true"/>
 	<preference name="SplashMaintainAspectRatio" value="true"/>
