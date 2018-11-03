@@ -11,6 +11,34 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+	<preference name="SplashScreen" value="screen"/>
+	<preference name="UIWebViewBounce" value="false" />
+	<preference name="DisallowOverscroll" value="true" />
+	<preference name="SplashScreenDelay" value="10000"/>
+	<preference name="FadeSplashScreenDuration" value="10000"/> 
+	<preference name="AutoHideSplashScreen" value="true"/>
+	<preference name="SplashShowOnlyFirstTime" value="false"/>
+	<preference name="FadeSplashScreen" value="false" /> 
+
+	<!-- Ionic supports Android Jellybean and up --> 
+	<preference name="android-minSdkVersion" value="16" />
+
+	<!-- Don't store local data in an iCloud backup. Turn this to "cloud" to enable storage 
+		 to be sent to iCloud. Note: enabling this could result in Apple rejecting your app.
+	-->
+	<preference name="BackupWebStorage" value="none" />
+
+	<feature name="StatusBar">
+	  <param name="ios-package" value="CDVStatusBar" onload="true" />
+	</feature>
+	<feature name="SplashScreen">
+	  <param name="ios-package" value="CDVSplashScreen"/>
+	  <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen"/>
+	  <param name="onload" value="true"/>
+	</feature>
+
+
+	<!--
     <preference name="ScrollEnabled" value="false" />
     <preference name="android-minSdkVersion" value="19" />
     <preference name="BackupWebStorage" value="none" />
@@ -18,8 +46,10 @@
     <preference name="FadeSplashScreenDuration" value="10000" />
     <preference name="SplashShowOnlyFirstTime" value="false" />
     <preference name="SplashScreen" value="screen" />
-    <preference name="SplashScreenDelay" value="15000" />
-	<preference name="SplashScreen" value="splash" />
+    <preference name="SplashScreenDelay" value="10000" />
+	<preference name="UIWebViewBounce" value="false" />
+	<preference name="DisallowOverscroll" value="true" />
+	-->
 	<splash src="./splash.png" />
     <platform name="android">
 	<preference name="ShowSplashScreenSpinner" value="true"/>
