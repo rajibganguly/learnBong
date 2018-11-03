@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="io.ionic.starter" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>Easy Speak Bengali</name>
+    <name>Easy Speak</name>
     <description>Easy Bengali Speaking App in 10 minutes.</description>
     <author email="w3earth@outlook.com" href="https://rgcreativelab..com/">Rajib Ganguly</author>
     <content src="index.html" />
@@ -11,11 +11,11 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
-	<preference name="SplashScreen" value="screen"/>
+	<preference name="SplashScreen" value="./icon.png"/>
 	<preference name="UIWebViewBounce" value="false" />
 	<preference name="DisallowOverscroll" value="true" />
-	<preference name="SplashScreenDelay" value="10000"/>
-	<preference name="FadeSplashScreenDuration" value="10000"/> 
+	<preference name="SplashScreenDelay" value="5000"/>
+	<preference name="FadeSplashScreenDuration" value="5000"/> 
 	<preference name="AutoHideSplashScreen" value="true"/>
 	<preference name="SplashShowOnlyFirstTime" value="false"/>
 	<preference name="FadeSplashScreen" value="false" /> 
